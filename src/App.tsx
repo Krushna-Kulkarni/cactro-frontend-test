@@ -5,10 +5,12 @@ import { FiCheckCircle } from "react-icons/fi";
 import { LuRefreshCcw } from "react-icons/lu";
 import { IoIosWarning } from "react-icons/io";
 import { TbUsers } from "react-icons/tb";
+import { RevenueChart } from "./components/Charts/RevenueChart";
+import { BudgetChart } from "./components/Charts/BudgetChart";
 
 function App() {
   return (
-    <>
+    <div className="container">
       Cactro frontend Test
       <div className="kpi-cards">
         <KpiCard
@@ -38,7 +40,19 @@ function App() {
           icon={<TbUsers color="#9dfff8" size={"30px"} />}
         />
       </div>
-    </>
+      <div className="charts-row">
+        <div className="revenue-chart-container">
+          <div className="revenue-chart">
+            <RevenueChart />
+          </div>
+        </div>
+        <div className="budget-chart-container">
+          <div className="budget-chart">
+            <BudgetChart />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
