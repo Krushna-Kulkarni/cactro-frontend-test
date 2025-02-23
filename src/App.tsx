@@ -52,17 +52,17 @@ function App() {
             <KpiCard
               title="Total Projects"
               count={5}
-              icon={<IoGridOutline color="9dfff8" size={"30px"} />}
+              icon={<IoGridOutline color="000dccd" size={"30px"} />}
             />
             <KpiCard
               title="Completed"
               count={1}
-              icon={<FiCheckCircle color="9dfff8" size={"30px"} />}
+              icon={<FiCheckCircle color="000dccd" size={"30px"} />}
             />
             <KpiCard
               title="Ongoing"
               count={3}
-              icon={<LuRefreshCcw color="9dfff8" size={"30px"} />}
+              icon={<LuRefreshCcw color="000dccd" size={"30px"} />}
             />
             <KpiCard
               title="Delayed"
@@ -73,7 +73,7 @@ function App() {
             <KpiCard
               title="Employees"
               count={5}
-              icon={<TbUsers color="9dfff8" size={"30px"} />}
+              icon={<TbUsers color="000dccd" size={"30px"} />}
             />
           </div>
           <div className="charts-row">

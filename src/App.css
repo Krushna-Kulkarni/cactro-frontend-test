@@ -47,7 +47,7 @@
 }
 .revenue-chart-container {
   width: 644px;
-  height: 500px;
+  height: 400px;
 }
 
 .revenue-chart,
@@ -58,7 +58,7 @@
 
 .budget-chart-container {
   width: 406px;
-  height: 500px;
+  height: 400px;
 }
 
 .mood-card-col {
@@ -110,7 +110,7 @@
 .mood-card {
   background-color: #ffffff;
   width: 200px;
-  padding: 20px 0px;
+  padding: 10px 0px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -135,8 +135,8 @@
 }
 
 .mood-card .pic {
-  width: 56px;
-  height: 56px;
+  width: 48px;
+  height: 48px;
   flex-shrink: 0;
 }
 
